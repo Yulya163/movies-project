@@ -59,7 +59,7 @@ class Search extends React.Component {
                                 type="radio"
                                 value='all'
                                 onChange={this.handleFilter}  
-                                //checked={this.state.type === 'all'}                                  
+                                checked={this.state.type === ''}                                  
                             />
                             <span>All</span>
                         </label>
@@ -71,7 +71,7 @@ class Search extends React.Component {
                                 type="radio"
                                 value='movie'
                                 onChange={this.handleFilter} 
-                                //checked={this.state.type === 'movie'}                                   
+                                checked={this.state.type === 'movie'}                                   
                             />
                             <span>Movies only</span>
                         </label>
@@ -83,7 +83,7 @@ class Search extends React.Component {
                                 type="radio"
                                 value='series'
                                 onChange={this.handleFilter}  
-                                //checked={this.state.type === 'series'}                                    
+                                checked={this.state.type === 'series'}                                    
                             />
                             <span>Series only</span>
                         </label>

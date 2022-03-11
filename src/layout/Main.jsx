@@ -5,8 +5,6 @@ import { Preloader } from '../components/Preloader';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-console.log(API_KEY);
-
 class Main extends Component {
 
     state = {
