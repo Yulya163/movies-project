@@ -21,7 +21,7 @@ nav {
   justify-content: space-between;
 }
 .card {
-  width: 30%;
+  width: 400px;
 }
 .row-radio {
   display: flex;
